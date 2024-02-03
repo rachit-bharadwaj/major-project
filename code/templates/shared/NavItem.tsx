@@ -17,7 +17,7 @@ const NavItem = ({ Icon, label, link }: NavItem) => {
     <Link href={link}>
       <Icon
         className={`text-3xl ${
-          path === link ? `text-primary-100` : "text-primary-300"
+          path === link ? `text-primary-100` : "text-primary-400"
         }`}
       />
       <p className="hidden">{label}</p>
