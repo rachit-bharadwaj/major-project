@@ -11,3 +11,13 @@ export type Story = {
   image: string;
   url: string;
 };
+
+export type Post = {
+  creatorImg: string;
+  creatorName: string;
+  timestamp: string;
+  text?: string;
+  image?: Array<string>;
+  likes?: Array<string>;
+  comments?: Array<string>;
+};

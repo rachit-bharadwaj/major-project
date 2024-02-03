@@ -2,7 +2,7 @@ import { Header, Posts, Stories } from "@/components/home";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-5">
+    <main className="flex flex-col gap-5 pb-24">
       <Header />
 
       <Stories />

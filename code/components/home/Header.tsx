@@ -3,7 +3,7 @@ import { HiOutlineChatBubbleBottomCenterText } from "react-icons/hi2";
 
 const Header = () => {
   return (
-    <header className="p-3 flex justify-between items-center">
+    <header className="p-3 sticky top-0 z-40 bg-primary-600 flex justify-between items-center">
       <p className="text-4xl text-secondary-200 font-extrabold">Socio</p>
 
       <Link href="/messages">

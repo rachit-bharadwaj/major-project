@@ -12,7 +12,7 @@ import { HiPlusSm } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <nav className="fixed bottom-0 w-full flex justify-between items-center p-3">
+    <nav className="fixed bottom-0 w-full flex justify-between items-center p-3 bg-glass z-50 rounded-t-2xl">
       <NavItem Icon={CgFeed} label="Home" link="/" />
       <NavItem Icon={LuSearch} label="Search" link="/search" />
 
