@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { Navbar } from "@/components/shared";
 
 export default function MainLayout({
   children,
@@ -7,7 +8,10 @@ export default function MainLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
