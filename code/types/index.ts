@@ -5,3 +5,9 @@ export type NavItem = {
   Icon: ElementType;
   link: string;
 };
+
+export type Story = {
+  creatorImg: string;
+  image: string;
+  url: string;
+};
