@@ -40,7 +40,10 @@ const Post = ({
             <p className="text-sm text-primary-300">{timestamp}</p>
           </div>
         </div>
-        <HiDotsVertical className="text-2xl text-primary-300" />
+
+        <button>
+          <HiDotsVertical className="text-2xl text-primary-300 hover:text-primary-100" />
+        </button>
       </div>
 
       <div className="py-3 flex gap-1 flex-col">
