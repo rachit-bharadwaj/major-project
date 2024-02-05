@@ -21,3 +21,10 @@ export type Post = {
   likes?: Array<string>;
   comments?: Array<string>;
 };
+
+export type Comment = {
+  creatorImg: string;
+  creatorName: string;
+  comment: string;
+  timestamp: string;
+};

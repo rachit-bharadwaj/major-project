@@ -11,3 +11,4 @@ const ProfilePage = ({ params }: { params: { profile: string } }) => {
 };
 
 export default ProfilePage;
+ 

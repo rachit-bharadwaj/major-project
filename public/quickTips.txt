@@ -1,0 +1,1 @@
+Only the root layout can and must contain <html> and <body> tags.
