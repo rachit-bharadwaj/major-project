@@ -28,7 +28,7 @@ const Header = () => {
         alt="Profile Picture"
         width={100}
         height={100}
-        className="h-20 w-20 rounded-full -mt-10"
+        className="h-24 w-24 rounded-full -mt-12"
       />
     </header>
   );
